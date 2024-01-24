@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logopestaña.ico">
+    <title>Globas System Multiservis</title>
+    <script class="t1" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- script de arriba es necesario para usar los pop ups-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <nav>
+        <div>
+        <img src="ubi.png" class="ubi" id="open0">
+        <div id="popup0" style="display: none;">
+            <div class="content-pop0">
+            <h1 class="tp">Estamos aquí</h1>
+            <div class="sh">
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d242.3389543714545!2d-72.88669051704002!3d-13.631997358574514!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1700596302799!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <div>
+            <button href="#" id="close0">Cerrar</button>
+            </div>
+            </div>
+            </div>
+            <script type="text/javascript">
+            $(document).ready(function(){
+            $("#open0").on("click", function(){
+            $("#popup0").fadeIn("slow");
+            });
+            $("#close0").on("click", function(){
+            $("#popup0").fadeOut("slow");
+            });
+            });
+            </script>
+
+        <nav><ul class="a">
+            <li><input type="button" class="b" id="open1" value="Nosotros"></li>
+                    <div id="popup1" style="display: none;">
+                    <div class="content-pop1">
+                    <h1 class="tp">Global System</h1>
+                    <div class="sh">
+                    <section><p class="pp">Cada pequeño problema es una oportunidad para demostrar nuestra capacidad de adaptación y creatividad. Estamos aquí para solucionar incluso los desafíos más pequeños con ingenio y determinación.
+                        Confiamos en nuestra habilidad para encontrar soluciones efectivas y eficientes. Juntos, como equipo, podemos superar estos obstáculos y continuar avanzando hacia nuestros objetivos. 
+                        </p><p class="pp">¡Gracias por su preferencia!</p>
+                    </section>
+                    </div>
+                    <div>
+                    <button href="#" id="close1">Cerrar</button>
+                    </div>
+                    </div>
+                    </div>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                    $("#open1").on("click", function(){
+                    $("#popup1").fadeIn("slow");
+                    });
+                    $("#close1").on("click", function(){
+                    $("#popup1").fadeOut("slow");
+                    });
+                    });
+                    </script>
+            <li><input type="button" class="b" id="open2" value="Contacto"></li>
+                     <div id="popup2" style="display: none;">
+                    <div class="content-pop2">
+                    <h1 class="tp">A través de</h1>
+                    <div class="contactos">
+                    <a href="https://api.whatsapp.com/send?phone=51921140289" target="_blank"><img src="wpp.png" class="contw" alt=""></a>
+                    <a href="mailto:globalsystemm@proton.me" target="_blank"><img src="email.png" class="conte" alt=""></a>
+                    <a href="https://www.facebook.com/messages/t/globalsystemm" target="_blank"><img src="messenger.png" class="contm" alt=""></a>
+                    </div>
+                    <div>
+                    <button href="#" id="close2">Cerrar</button>
+                    </div>
+                    </div>
+                    </div>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                    $("#open2").on("click", function(){
+                    $("#popup2").fadeIn("slow");
+                    });
+                    $("#close2").on("click", function(){
+                    $("#popup2").fadeOut("slow");
+                    });
+                    });
+                    </script>
+        </ul></nav>
+    </header>
+
+    <div class="carousel">
+      <div class="slide">
+        <div class="area a1"></div>
+        <div class="area a2"></div>
+        <div class="area a3"></div>
+      </div>
+    </div>
+    
+      <script>
+  const areas = document.querySelectorAll('.area');
+let slideIndex = 0;
+
+function showSlide() {
+  areas.forEach(area => area.style.opacity = '0'); // Oculta todas las áreas
+  areas[slideIndex].style.opacity = '1'; // Muestra el área actual
+
+  const moveAmount = -slideIndex * 100; // Calcula el desplazamiento
+  document.querySelector('.slide').style.transform = `translateX(${moveAmount}%)`; // Desplaza el carousel
+
+  slideIndex = (slideIndex + 1) % areas.length; // Avanza al siguiente slide
+}
+
+setInterval(showSlide, 2000); // Cambiar slide cada 2 segundos
+showSlide(); // Muestra el primer slide de inmediato
+
+      </script>
+
+
+
+
+
+
+
+    <nav class="nav1">
+        <img src="logop.png" alt="" class="logop">
+    </nav>
+    <nav><div><h1 class="servicios">NUESTROS SERVICIOS</h1></div></nav>
+    <nav class="grid-nav">
+        <div class="seccion"><center> 
+            <img src="fotocopia.png" alt="" class="foto">
+            <button class="b">Fotocopias</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="impresión.png" alt="" class="impre">
+            <button class="b">Impresiones</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="tipeo.png" alt="" class="tipeo">
+            <button class="b">Tipeos</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="modificaciones.png" alt="" class="modificaciones">
+            <button class="b">Modificaciones</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="anillados.png" alt="" class="anillados">
+            <button class="b">Anillados</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="escaneados.png" alt="" class="escaneados">
+            <button class="b">Escaneados</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="formateos.png" alt="" class="formateos">
+            <button class="b">Formateos</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="quemados.png" alt="" class="quemados">
+            <button class="b">Quemados CD-DVD</button></center>
+        </div>
+        <div class="seccion"><center>
+            <img src="taudio.png" alt="" class="taudio">
+            <button class="b">Transcripción de audio</button></center>
+        </div>
+      </nav>
+      
+        <script>
+            // Función para mover las secciones
+function moveSections() {
+    const nav = document.querySelector('.grid-nav');
+    setInterval(() => {
+        nav.appendChild(nav.firstElementChild); // Mueve la primera sección al final
+    }, 2000); // Cambia la sección cada 2 segundos (puedes ajustar el tiempo)
+}
+
+moveSections(); // Llama a la función para iniciar el movimiento
+
+        </script>
+
+      <footer>
+        <div class="fcontacto">
+        <p class="pf">CONTACTO</p>
+        <p class="pf">+51 921 140 289</p>
+        <p class="pf">globalsystemm@proton.me</p>
+        <p class="pf">Abancay - Apurímac - Jirón Los Lirios</p>
+        </div>
+        <ul class="footer logos">
+            <li>
+                <div class="logo-fb"><a href="https://www.facebook.com/globalsystemm/" target="_blank"><img src="fb footer.png" alt=""></a></div>
+            </li>
+            <li class="logo-b"><img src="barras.png" alt=""></li>
+            <li>
+                <div class="logo-yt"><a href="https://www.youtube.com/@GlobalSystem-hz4mj" target="_blank"><img src="yt footer.png" alt=""></a></div>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>

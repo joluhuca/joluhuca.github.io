@@ -1,0 +1,581 @@
+*{
+	padding: 0PX;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100vw;
+	height: 7vh;
+	font-size: 10px;
+	background: black;
+    align-items: center;
+    padding: 20px;
+}
+.a {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: -1%;
+}
+
+.a li {
+    display: inline;
+    margin-right: 5px; /* Espacio entre los elementos de la lista */
+
+}
+.b {
+    background-color: yellow; /* Color de fondo */
+    border: none; /* Quita el borde */
+    color: black; /* Color del texto */
+    padding: 3px 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none;
+    border-radius: 100px;  /*borde circular*/
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin-top: 0% 0%; /* Margen exterior */
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+  }
+  
+  /* Estilo para el input tipo botón al pasar el mouse sobre él */
+  .b:hover {
+    background-color: white; /* Color de fondo al pasar el mouse */
+  }
+  .ubi {
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    float: left;
+    margin-right: 0px; /* Agrega un margen a la derecha para separar del contenido */
+    text-align: left;
+    margin-top: 0.4%;
+    cursor: pointer;
+    margin-left: 1px;
+    max-width: 15px;
+}
+.ubi:hover{
+    padding-top: 0px;
+	padding-left: 0px;
+	transition: transform 0.1;
+    transform: scale(1.4);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+img.logop{
+    width: 35%; /* Reducir el ancho al 50% del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  margin: 0px; /* Reducir el margen alrededor de la imagen */
+  position: relative;
+  left: 470px;
+  top: 0px;
+  z-index: 2;
+}
+
+.nav1 {
+    background-image: url('fondo3.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size:cover; /* Ajusta el tamaño de la imagen para que cubra todo el elemento */
+    background-repeat:round; /* Evita que la imagen se repita */
+     /* Ajusta el relleno según sea necesario */
+    /*border: 2px solid whitesmoke;*/
+    /*border: solid black 2px; */
+}
+.grid-nav {
+    background-color: #CADBF1;
+    display: flex;
+    grid-template-columns: repeat(6, 1fr); /* Tres columnas con el mismo ancho */
+    gap: 4.3px; /* Espacio entre las secciones */
+    margin-top: 10px;
+    width: 1366px;
+    margin-bottom: px;
+    white-space: nowrap;
+    overflow-x:hidden;
+}     
+.seccion {
+        padding: 9.75px;
+        width: 220.5px;
+        background-color:white; /* Color de fondo */
+        margin-bottom: 10px;
+  /* Espaciado interno */
+  margin: 2.6px; /* Margen exterior */
+  border: 0px solid #ccc; /* Borde */
+  border-style: dashed; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  font-family: Arial, sans-serif; /* Familia de fuentes */
+  color: #333; /* Color del texto */
+}
+.foto{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+}
+.impre{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+}
+.tipeo{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -0px;
+    z-index: 1;
+}
+.modificaciones{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -0px;
+    z-index: 1;
+}
+.anillados{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -0px;
+    z-index: 1;
+}
+.escaneados{
+    display: block;
+    margin: auto; /* Esto centra horizontal y verticalmente */
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -0px;
+    z-index: 1;
+}
+.formateos{
+  display: block;
+  margin: auto; /* Esto centra horizontal y verticalmente */
+  align-items: center;
+  height: 100px;
+  position: relative;
+  top: -0px;
+  z-index: 1;
+}
+.quemados{
+  display: block;
+  margin: auto; /* Esto centra horizontal y verticalmente */
+  align-items: center;
+  height: 100px;
+  position: relative;
+  top: -0px;
+  z-index: 1;
+}
+.taudio{
+  display: block;
+  margin: auto; /* Esto centra horizontal y verticalmente */
+  align-items: center;
+  height: 100px;
+  position: relative;
+  top: -0px;
+  z-index: 1;
+}
+
+footer {
+    background-color: black; /* Fondo negro */
+    color: yellow; /* Texto amarillo */
+    padding: 10px; /* Espaciado interno */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  body{
+    background-color: whitesmoke;
+  }
+
+/*container ubi*/ 
+*{
+    box-sizing: border-box;
+}
+
+.modal-container{
+    position: relative;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;  /*ponerle esto para que no sea visible y solo 
+                 // lo sea cuando presiones el boton abrir */
+}
+.modal{
+    position: relative;
+    background-color: black;
+    width: 400px;
+    max-width: 100%;
+    padding: 10px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    z-index: 0;
+    border: white solid 1.5px;
+    position: fixed;
+  top: 50%; /* Posiciona el elemento a la mitad de la altura */
+  left: 50%; /* Posiciona el elemento a la mitad del ancho */
+  transform: translate(-50%, -50%); /* Centra exactamente el centro del elemento */
+  background: white; /* Cambia el color de fondo según tus preferencias */  
+}
+.tp{
+  color: black; /* Color del texto */
+  text-align: left; /* Alineación del texto */
+  text-decoration: none;
+  border-radius: 100px;  /*borde circular*/
+  display: inline-block;
+  font-size: 20px; /* Tamaño del texto */
+  margin-bottom: 5px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.pp{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  
+  
+}
+#cerrar{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: -2px;
+  border-radius: 100px;
+  padding: 4%;
+  background-color: black; /* Color de fondo */
+  border: none; /* Quita el borde */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none;
+  border-radius: 100px;  /*borde circular*/
+  display: inline-block;
+  font-size: 15px; /* Tamaño del texto */
+  font-family: 'Bebas Neue', sans-serif;
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+
+
+#popup0{
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+}
+.content-pop0{
+	position: relative;
+    background-color: black;
+    width: 550px;
+    max-width: 100%;
+    padding: 10px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    z-index: 0;
+    border: white solid 1.5px;
+    position: fixed;
+  top: 50%; /* Posiciona el elemento a la mitad de la altura */
+  left: 50%; /* Posiciona el elemento a la mitad del ancho */
+  transform: translate(-50%, -50%); /* Centra exactamente el centro del elemento */
+  background:white; /* Cambia el color de fondo según tus preferencias */  
+  z-index: 99;
+}
+#close0 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: -2px;
+  border-radius: 100px;
+  padding: 2%;
+  background-color: black; /* Color de fondo */
+  border: none; /* Quita el borde */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none;
+  border-radius: 100px;  /*borde circular*/
+  display: inline-block;
+  font-size: 15px; /* Tamaño del texto */
+  font-family: 'Bebas Neue', sans-serif;
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+.map {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1%; /* Ajusta la altura al 100% del viewport */
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+
+
+/* contenier nosotros*/
+
+
+
+#popup1{
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+}
+.content-pop1{
+	position: relative;
+    background-color: black;
+    width: 600px;
+    max-width: 100%;
+    padding: 10px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    z-index: 0;
+    border: white solid 1.5px;
+    position: fixed;
+  top: 50%; /* Posiciona el elemento a la mitad de la altura */
+  left: 50%; /* Posiciona el elemento a la mitad del ancho */
+  transform: translate(-50%, -50%); /* Centra exactamente el centro del elemento */
+  background:white; /* Cambia el color de fondo según tus preferencias */  
+  z-index: 99;
+}
+#close1 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: -2px;
+  border-radius: 100px;
+  padding: 2%;
+  background-color: black; /* Color de fondo */
+  border: none; /* Quita el borde */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none;
+  border-radius: 100px;  /*borde circular*/
+  display: inline-block;
+  font-size: 15px; /* Tamaño del texto */
+  font-family: 'Bebas Neue', sans-serif;
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+#popup2{
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+}
+.content-pop2{
+	position: relative;
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+    padding: 10px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    z-index: 0;
+    border: white solid 1.5px;
+    position: fixed;
+  top: 50%; /* Posiciona el elemento a la mitad de la altura */
+  left: 50%; /* Posiciona el elemento a la mitad del ancho */
+  transform: translate(-50%, -50%); /* Centra exactamente el centro del elemento */
+  background: white; /* Cambia el color de fondo según tus preferencias */  
+  z-index: 99;
+}
+#close2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-radius: 100px;
+  padding: 2%;
+  background-color: black; /* Color de fondo */
+  border: none; /* Quita el borde */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none;
+  border-radius: 100px;  /*borde circular*/
+  display: inline-block;
+  font-size: 15px; /* Tamaño del texto */
+  font-family: 'Bebas Neue', sans-serif;
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+.contactos{
+  margin: 2px;
+  padding: 1px;
+}
+.contw{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 22px;
+  cursor: pointer;
+  left: 400px;
+}
+.conte{
+  display:inline-block;
+  max-width: 100px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  cursor: pointer;
+}
+.contm{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 22px;
+  cursor: pointer;
+}
+
+/* TRENCITO*/
+.carousel {
+  width: 100%; /* Ancho total del carousel */
+  overflow: hidden; /* Oculta el contenido fuera del carousel */
+}
+
+.slide {
+  display: flex; /* Utiliza flexbox para alinear las áreas horizontalmente */
+  width: 100%; /* Ancho total del conjunto de áreas */
+  transition: transform 0.5s ease; /* Efecto de transición */
+}
+
+.area {
+  flex: 0 0 100%; /* Cada área ocupa el ancho completo */
+  text-align: center; /* Centra el contenido */
+   /* Borde para visualización */
+  opacity: 0; /* Comienza oculto */
+  transition: opacity 0.5s ease; /* Transición de opacidad */
+  height: 30px;
+}
+.area.a1 {
+  background-image: url(slide11.png);
+  background-size: cover; 
+}
+.area.a2 {
+  background-image: url(slide22.png);
+  background-size: cover;
+}
+.area.a3 {
+  background-image: url(slide33.png);
+  background-size: cover;
+}
+
+ul.footer.logos{
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+ul.footer.logos li img {
+  align-items: center;
+  align-content: center;
+}
+.logo-yt img {
+  cursor: pointer;
+  max-width: 50px; /* Ancho máximo para las imágenes */
+  max-height: 23px;
+  margin-left: 0px;
+}
+.logo-yt:hover{
+    padding-top: 0px;
+	padding-left: 0px;
+	transition: transform 0.1;
+    transform: scale(1.2);
+}
+.logo-fb img {
+  cursor: pointer;
+  max-width: 50px; /* Ancho máximo para las imágenes */
+  max-height: 23px;
+  margin: 0px;
+}
+.logo-fb:hover{
+    padding-top: 0px;
+	padding-left: 0px;
+	transition: transform 0.1;
+    transform: scale(1.2);
+}
+.logo-b img {
+  max-width: 400px; /* Ancho máximo para las imágenes */
+  max-height: 23px;
+  margin: 0px;
+}
+.servicios{
+  margin-top: 6px;
+    text-align: center;
+    color: #DBF500;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0px 0px 0px black;
+    font-size: 25px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.servicios {
+  color:black;
+  text-align: center;
+  position: relative;
+}
+.servicios::before,
+.servicios::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%; /* Ancho de las líneas */
+  height: 2px; /* Grosor de las líneas */
+  background-color:black; /* Color de las líneas */
+}
+
+.servicios::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.servicios::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+.fcontacto{  
+  position:fixed;
+  text-align: left;
+  display:block;
+  justify-content:flex-start;
+  align-items:end;
+  list-style: none;
+  right: 5px;
+}
+.pf{
+  text-align: right;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11.5px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
